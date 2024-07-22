@@ -25,7 +25,8 @@ The database credentials are supplied in server.js as a constant and in the futu
 To make this work you will need to install the packages shown in top lines of the server.js.
 To do this cd to the directory of this project and do "npm i 'package'" and let it intall:
 
-These are the ones you must install
+These are the ones you must install:
+
 	- npm i express (Used for app)
 	- npm i mysql2 (Used for MySQL db connection)
 	- npm i ws (Used for hosting WebSocket)
