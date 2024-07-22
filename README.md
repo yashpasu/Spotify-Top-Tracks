@@ -19,7 +19,7 @@ The tools I have used are as follows:
 
 Spotify API is used to retrieve the data for artists, country, albums and top tracks. I use a combination of artists and albums to search data on a song level.
 
-This website can be run through the url: http://localhost:3306/index.html as the websocket is running on port 3306.
+This website can be accessed through the url: http://localhost:3306/index.html as the websocket is running on port 3306.
 The database credentials are supplied in server.js as a constant and in the future I plan to encapsulate this by placing in it a config file with abstraction.
 
 To make this work you will need to install the packages shown in top lines of the server.js.
