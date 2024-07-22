@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Artist Top Tracks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify Artist Top Tracks</h1>
+        <form id="search-form">
+            <div>
+                <label for="artist-name">Artist Name:</label>
+                <input type="text" id="artist-name" name="artist-name" required>
+            </div>
+            <div>
+                <label for="country-name">Country Code (Optional):</label>
+                <input type="text" id="country-name" name="country-name">
+            </div>
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="response-box">
+            <h2>Top Tracks</h2>
+            <div id="tracks-list"></div>
+        </div>
+
+        <div id="chat-section">
+            <h2>Chat</h2>
+            <div id="chat-box"></div>
+            <form id="chat-form">
+                <input type="text" id="chat-message" placeholder="Type your message here..." required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
