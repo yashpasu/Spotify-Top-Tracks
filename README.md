@@ -27,7 +27,7 @@ To do this cd to the directory of this project and do "npm i 'package'" and let 
 
 These are the ones you must install:
 
- 	- npm init y (Used to setup package configs)
+ 	- npm init -y (Used to setup package configs)
  	- npm i express (Used for app)
 	- npm i mysql2 (Used for MySQL db connection)
 	- npm i ws (Used for hosting WebSocket)
