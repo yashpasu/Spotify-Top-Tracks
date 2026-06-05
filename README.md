@@ -14,7 +14,8 @@ The tools I have used are as follows:
 	- Server side js for backend communication with database. This includes using express promises.
 	- Script js for communicating with APIs. This includes using Fetch.
 	- Basic HTML, CSS Skills and Formatting
-	- REST APIs to help me receive required information when needed. (Spotify API, IpInfo API)
+	- Fetch on the client-side to send HTTP requests using react.js.
+	- REST APIs with Express.js on server side to receive required information when needed. (Spotify API, IpInfo API)
 	- DOM (document object model) in JSON form when receiving data from APIs
 	
 
