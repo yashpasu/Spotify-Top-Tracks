@@ -14,8 +14,9 @@ The tools I have used are as follows:
 	- Server side js for backend communication with database. This includes using express promises.
 	- Script js for communicating with APIs. This includes using Fetch.
 	- Basic HTML, CSS Skills and Formatting
-	- APIs to help me receive required information when needed. (Spotify API, IpInfo API)
+	- REST APIs to help me receive required information when needed. (Spotify API, IpInfo API)
 	- DOM (document object model) in JSON form when receiving data from APIs
+	
 
 Spotify API is used to retrieve the data for artists, country, albums and top tracks. I use a combination of artists and albums to search data on a song level.
 
